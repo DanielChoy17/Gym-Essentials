@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "GymEssential",
+    "slug": "gymessentials",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/TaskBarIcons/1024.png"    ,
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18dc247b-b32a-4917-9b56-bdffec367bfc"
+      }
+    },
+    "owner": "sanning", 
+
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./src/assets/1024.png", 
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
